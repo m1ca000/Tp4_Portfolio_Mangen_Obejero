@@ -4,6 +4,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Navigation from './components/Navigation';
+import Contact from './components/Contact';
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -17,10 +18,11 @@ function App() {
   return (
     <div className="min-h-screen bg-[#0a2a2a]">
       <Navigation activeSection={activeSection} onNavigate={scrollToSection} />
-      <div id="hero"><Hero /></div>
+      <div id="home"><Hero /></div>
       <div id="about"><About /></div>
       <div id="experience"><Experience /></div>
       <div id="projects"><Projects /></div>
+      <div id="contact"><Contact /></div>
     </div>
   );
 }

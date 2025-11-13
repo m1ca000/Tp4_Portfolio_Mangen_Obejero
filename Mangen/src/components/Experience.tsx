@@ -32,7 +32,7 @@ export default function Experience() {
             return (
               <div
                 key={index}
-                className="border-2 border-pink-400 rounded-lg p-8 bg-[#0a2a2a] hover:bg-[#0d3333] transition-all duration-300 hover:scale-105"
+                className="border-2 text-[#A577BA] rounded-lg p-8 bg-[#0a2a2a] hover:bg-[#0d3333] transition-all duration-300 hover:scale-105"
               >
                 <div className="flex items-center gap-4 mb-6">
                   <Icon className="w-10 h-10 text-cyan-400" strokeWidth={1.5} />

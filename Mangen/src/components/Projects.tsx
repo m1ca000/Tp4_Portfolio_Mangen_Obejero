@@ -25,7 +25,7 @@ export default function Projects() {
           {projects.slice(0, 2).map((project, index) => (
             <div
               key={index}
-              className="border-2 border-pink-400 rounded-lg p-8 bg-[#0a2a2a] hover:bg-[#0d3333] transition-all duration-300 hover:scale-105"
+              className="border-2 text-[#A577BA] rounded-lg p-8 bg-[#0a2a2a] hover:bg-[#0d3333] transition-all duration-300 hover:scale-105"
             >
               <h3 className="text-white text-2xl font-bold mb-4">
                 {project.title}
@@ -38,7 +38,7 @@ export default function Projects() {
         </div>
 
         <div className="flex justify-center">
-          <div className="w-full md:w-2/3 border-2 border-pink-400 rounded-lg p-8 bg-[#0a2a2a] hover:bg-[#0d3333] transition-all duration-300 hover:scale-105">
+          <div className="w-full md:w-2/3 border-2 text-[#A577BA] rounded-lg p-8 bg-[#0a2a2a] hover:bg-[#0d3333] transition-all duration-300 hover:scale-105">
             <h3 className="text-white text-2xl font-bold mb-4">
               {projects[2].title}
             </h3>
